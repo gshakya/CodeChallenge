@@ -21,4 +21,11 @@ public class Customer {
         siteVisits = new ArrayList<SiteVisit>();
         orders= new ArrayList<Order>();
     }
+
+    public  void addOrder(Order order){
+        orders.add(order);
+    }
+
+
+
 }
